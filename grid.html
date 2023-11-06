@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .one {
+            padding: 83px;
+            /* border: 3px solid black; */
+        }
+
+        .main {
+            display: grid;
+            grid-template-columns: repeat(5);
+            gap: 15px;
+        }
+
+        #first {
+            grid-column: 1/9;
+            grid-row: 1/2;
+            background-image: url(https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=);
+            background-position: center;
+            background-size: cover;
+        }
+
+        #second {
+            grid-column: 9/13;
+            grid-row: 1/2;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRXFcIQDgOtbpbtLZyrvi8HI2Sl4wcPaJdiA&usqp=CAU);
+            background-position: center;
+            background-size: cover;
+        }
+
+        #third {
+            grid-column: 13/15;
+            grid-row: 1/5;
+            background-color: black;
+            color: white;
+            padding: 25px;
+            text-align: right;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2 {
+            margin-bottom: 50px;
+        }
+
+        li {
+            list-style-type: none;
+            margin-bottom: 25px;
+        }
+
+        li:hover {
+            color: orangered;
+        }
+       
+        #four {
+            grid-column: 1/3;
+            grid-row: 2/3;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfxyXg5vnMddTKjse4VACWVgLNP4IUUaxJOg&usqp=CAU);
+            background-position: center;
+            background-size: cover;
+        }
+
+        #five {
+            grid-column: 3/10;
+            grid-row: 2/3;
+            background-image: url(https://media.istockphoto.com/id/1173935107/photo/long-wave-on-the-coast-dawn-on-the-sea-tunisia.jpg?s=612x612&w=0&k=20&c=Q-O-34NjJpbiOtNlGGUGEllKATijp34X_xfZphY7VtE=);
+            background-position: center;
+            background-size: cover;
+        }
+
+        #six {
+            grid-column: 10/13;
+            grid-row: 2/3;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNWC4A_n2TmC8yZhJfp1JK8mf-IUb6ii7_lQ&usqp=CAU);
+            background-position: center;
+            background-size: cover;
+        }
+
+        #seven {
+            grid-column: 1/7;
+            grid-row: 3/4;
+            background-image: url(https://wpcdn.us-east-1.vip.tn-cloud.net/www.hawaiimagazine.com/content/uploads/2020/12/plumeria-2-Eric-Tessmer-Flickr-1024x708.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        #eight {
+            grid-column: 7/13;
+            grid-row: 3/4;
+            background-image: url(https://lenaonthemove.com/wp-content/uploads/2019/06/Sugar-Beach-Sunset-1024x683.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        #nine {
+            grid-column: 1/5;
+            grid-row: 4/5;
+            background-image: url(https://i0.wp.com/sociallover.net/wp-content/uploads/2019/04/lotus-natural-wallpaper-full-hd.png);
+            background-position: center;
+            background-size: cover;
+        }
+
+        #ten {
+            grid-column: 5/9;
+            grid-row: 4/5;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuy-T22eHYEptJ1d3q_eFGtgLVGGIK09iSog&usqp=CAU);
+            background-position: center;
+            background-size: cover;
+        }
+
+        #eleven {
+            grid-column: 9/13;
+            grid-row: 4/5;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWAA2F_8Wnf9R0jW22aHqSbqP_xDMCuO4x5Q&usqp=CAU);
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="one" id="first"></div>
+        <div class="one" id="second"></div>
+        <div class="one" id="third">
+            <h2>SHUTTER</h2>
+            <ul>
+                <li style="color: orangered;">HOME</li>
+                <li>PHOTOS</li>
+                <li>BIO</li>
+                <li>BLOG</li>
+                <li>CONTACT</li>
+            </ul>
+            <div class="icon">
+                <i class="fa-brands fa-facebook-f fa-xl" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-twitter fa-xl" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+            </div>
+        </div>
+        <div class="one" id="four"></div>
+        <div class="one" id="five"></div>
+        <div class="one" id="six"></div>
+        <div class="one" id="seven"></div>
+        <div class="one" id="eight"></div>
+        <div class="one" id="nine"></div>
+        <div class="one" id="ten"></div>
+        <div class="one" id="eleven"></div>
+    </div>
+</body>
+
+</html>

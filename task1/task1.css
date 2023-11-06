@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-size: 36px;
+    margin-top: 80px;
+    margin-left: 290px;
+    letter-spacing: 4px;
+    color: #f4f5f9;
+    font-weight: 700;
+    font-family: "Source Sans Pro";
+}
+
+
+p {
+    margin-top: -15px;
+    margin-left: 35px;
+    margin-bottom: 23px;
+    justify-content: right;
+    width: 587px;
+    height: 74px;
+    font-size: 18px;
+    line-height: 29px;
+    color: #a8a7a7;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    text-align: right;
+}
+
+button {
+    width: 6px;
+    height: 30px;
+    background-color: #e74c3c;
+    border: none;
+    padding-bottom: 5px;
+}
+
+.left {
+    width: 50%;
+    height: 661px;
+    background-color: #202020;
+    float: left;
+}
+
+.one h2 {
+    margin-top: 55px;
+    margin-left: 35px;
+    padding-top: 25px;
+    width: 587px;
+    height: 74px;
+    font-size: 25px;
+    line-height: 29px;
+    color: #e74c3c;
+    font-weight: 600;
+    z-index: 2;
+    font-family: "Open Sans";
+    text-align: right;
+}
+
+.one .a {
+    margin-top: -30px;
+    margin-left: 650px;
+    padding-top: 8px;
+    margin-bottom: 35px;
+    width: 67px;
+    height: 67px;
+    font-size: 17px;
+    border-radius: 50%;
+    background-color: #f4f5f9;
+    position: absolute;
+}
+
+.two h2 {
+    /* margin-top: 55px; */
+    margin-left: 35px;
+    padding-top: 25px;
+    width: 587px;
+    height: 74px;
+    font-size: 25px;
+    line-height: 29px;
+    color: #e74c3c;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: right;
+}
+
+.two .a {
+    margin-top: -30px;
+    margin-left: 650px;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    width: 67px;
+    height: 67px;
+    font-size: 17px;
+    border-radius: 50%;
+    background-color: #f4f5f9;
+    position: absolute;
+}
+
+.three h2 {
+    /* margin-top: 55px; */
+    margin-left: 35px;
+    padding-top: 25px;
+    width: 587px;
+    height: 74px;
+    font-size: 25px;
+    line-height: 29px;
+    color: #e74c3c;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: right;
+}
+
+.three .a {
+    margin-top: -30px;
+    margin-left: 650px;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    width: 67px;
+    height: 67px;
+    font-size: 17px;
+    border-radius: 50%;
+    background-color: #f4f5f9;
+    position: absolute;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    height: 661px;
+    background-image: url(Put\ Your\ Image.png);
+}

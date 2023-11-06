@@ -1,0 +1,652 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 45px;
+    /* position: absolute; */
+}
+
+.toggle{
+    display: none;
+}
+
+.logo{
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-list-1{
+    display: flex;
+    margin-left: 255px;
+    margin-top: 8px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.dropdown{
+    margin-left: 45px;
+}
+
+.dropbtn {
+    color: black;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ecebeb;
+    min-width: 120px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.login{
+    display: flex;
+    margin-left: 240px;
+}
+
+.free-btn{
+    color: #794CFF;
+    background: #ECE5FF;
+    padding: 8px 13px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.log{
+    margin-top: 8px;
+}
+
+.circle{
+    position: absolute;
+    margin-top: -25px;
+    z-index: -1;
+}
+
+.save-acc{
+    background-color: #F2F9EB;
+    width: 270px;
+    padding: 10px 0px;
+    border-radius: 25px;
+    margin-left: 40%;
+    margin-top: 80px;
+}
+
+.save{
+    background-color: #81C43B;
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: #ffffff;
+}
+
+.save-title{
+    text-align: center;
+    font-size: 55px;
+    margin-top: 25px;
+}
+
+.save-subtitle{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.main-form{
+    margin-left: 39%;
+    margin-top: 20px;
+}
+
+.form{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid #E1E5EA;
+    padding: 8px 18px;
+}
+
+.form-1{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid #E1E5EA;
+    background-color: #794CFF;
+    border: 1px solid #794CFF;
+    padding: 8px 18px;
+    color: #ffffff;
+}
+
+.trust-img{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.trusted{
+    margin-left: 130px;
+}
+
+.time{
+    margin-left: 8%;
+}
+
+.timeline-point{
+    width: 320px;
+    margin-left: 10px;
+}
+
+.time-1{
+    background-color: #F6F3FC;
+    width: 360px;
+    border-left: 6px solid #794CFF;
+    padding: 30px 0px 30px 0px;
+}
+
+.time-2{
+    margin-top: 45px;
+}
+
+.main-timeline{
+    display: flex;
+    margin-top: 45px;
+    background-color: #FBFAFE;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    border-top: 2px solid #F0EBFA;
+    border-bottom: 2px solid #F0EBFA;
+}
+
+.time-points{
+    margin-left: 95px;
+}
+
+.time-border{
+    margin-top: 25px;
+}
+
+.save-work{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+.icon-1{
+    margin-left: 125px;
+}
+
+.icon-img-1{
+    width: 54px;
+    height: 54px;
+}
+
+.work-title{
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.work-subtitle{
+    width: 280px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.work-btn{
+   display: none;
+}
+
+button{
+    background-color: #796EFF;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 4px;
+    color: white;
+    margin-top: 25px;
+}
+
+.everyday-title{
+    width: 280px;
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 55px;
+}
+
+.everyday-subtitle{
+    width: 400px;
+    margin-top: 20px;
+}
+
+.everday-img{
+    margin-left: 65px;
+}
+
+.main-everyday{
+    margin-left: 10%;
+}
+
+.customer{
+    text-align: center;
+    margin-top: 45px;
+}
+
+.customer-1{
+    display: flex;
+    border-top: 4px solid #35414B;
+    width: 200px;
+    padding-top: 16px;
+    margin-left: 230px;
+}
+
+.customer-2{
+    display: flex;
+    padding-top: 16px;
+    margin-left: 155px;
+}
+
+.cust-detail{
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+.main-cust{
+    display: flex;
+    margin-top: 75px;
+}
+
+.employe{
+    display: flex;
+    background-color: #796EFF;
+    padding: 35px 45px;
+    width: 70%;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-top: 45px;
+}
+
+.app-1{
+    margin-left: 65px;
+}
+
+.employe-title{
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-left: 45px;
+}
+
+.footer{
+    display: flex;
+    background-color: #1D2830;
+    color: #ffffff;
+    padding: 45px 0px;
+    margin-top: 85px;
+}
+
+.footer-main{
+    margin-left: 180px;
+}
+
+.footer-title{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.subtitle{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.subtitle-1{
+    margin-bottom: 15px;
+}
+
+.footer-social{
+    background-color: #1D2830;
+    display: flex;
+    color: #ffffff;
+    padding: 20px 0px;
+}
+
+.socia-link{
+    display: flex;
+    margin-left: 270%;
+}
+
+.social-1{
+    margin-left: 25px;
+}
+
+.all-right{
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.icon{
+    display: none;
+}
+
+/* mobile responsive  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .nav-list{
+        display: none;
+    }
+
+    .login{
+        display: none;
+    }
+
+    .toggle{
+        display: block;
+        margin-top: 12px;
+        margin-left: 55%;
+    }
+
+    .save-acc{
+        margin-left: 15%;
+    }
+
+    .save-title{
+        font-size: 30px;
+    }
+    
+    .save-subtitle{
+        font-size: 16px;
+    }
+    
+    .main-form{
+        margin-left: 10%;
+    }
+
+    .graph-1{
+        margin-left: 0;
+    }
+
+    .trusted-title{
+        font-size: 12px;
+    }
+
+    .trust-img{
+        display: flex;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    
+    .trusted{
+        margin-left: 20px;
+    }
+
+    .img-size{
+        width: 50px;
+    }
+
+   .time-imge{
+    width: 350px;
+   }
+
+   .time{
+    margin-left: 15px;
+   }
+    
+    .timeline-point{
+        width: 280px;
+        margin-left: 10px;
+    }
+    
+    .time-1{
+        width: 320px;
+        margin-top: 45px;
+    }
+    
+    .main-timeline{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .time-points{
+        margin-left: 25px;
+    }
+
+    .save-work{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 25px;
+    }
+    
+    .icon-1{
+        margin-left: 10px;
+        margin-top: 45px;
+    }
+    
+    .icon-img-1{
+        width: 54px;
+        height: 54px;
+        margin-left: 120px;
+    }
+    
+    .work-title{
+        margin-top: 8px;
+        margin-left: 5px;
+        text-align: center;
+    }
+    
+    .work-subtitle{
+        text-align: center;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .work-main{
+        display: none !important;
+    }
+
+    .work-main-1{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        margin-top: 0px !important;
+    }
+
+    .work-btn{
+        display: block;
+        background-color: #ECE5FF;
+        border: none;
+        padding: 12px 105px;
+        border-radius: 4px;
+        color: #7259FA;
+        margin-top: 25px;
+        margin-left: 35px;
+    }
+
+    button{
+        background-color: #796EFF;
+        border: none;
+        padding: 12px 105px;
+        border-radius: 4px;
+        color: white;
+        margin-top: 25px;
+    }
+    
+    .everyday-title{
+        width: 280px;
+        font-size: 35px;
+        font-weight: 500;
+        margin-top: 0px;
+        text-align: center;
+    }
+    
+    .everyday-subtitle{
+        width: 300px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .everday-img{
+        margin-left: 6px;
+        margin-top: 35px;
+    }
+
+    .every-img{
+        width: 365px;
+    }
+    
+    .main-everyday{
+        margin-left: 10%;
+    }
+
+    .customer{
+        text-align: center;
+        margin-top: 45px;
+        font-size: 17px;
+        width: 280px;
+        margin-left: 50px;
+    }
+    
+    .customer-1{
+        display: block;
+        border-top: none;
+        width: 200px;
+        padding-top: 0px;
+        margin-left: 100px;
+    }
+    
+    .customer-2{
+        display: none;
+    }
+    
+    .cust-detail{
+        margin-top: 9px;
+        margin-left: 0px;
+    }
+    
+    .main-cust{
+        display: flex;
+        margin-top: 45px;
+    }
+
+    .cust-img{
+        margin-left: 75px;
+    }
+
+    .employe{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #796EFF;
+        padding: 20px 25px;
+        width: 100%;
+        border-radius: 0px;
+        margin-left: 0;
+        margin-top: 45px;
+    }
+    
+    .app-1{
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    
+    .employe-title{
+        font-size: 24px;
+        font-weight: 600;
+        color: #ffffff;
+        margin-left: 6px;
+    }
+
+    .footer{
+        display: block;
+        background-color: #1D2830;
+        color: #ffffff;
+        padding: 45px 0px;
+        margin-top: 85px;
+    }
+    
+    .footer-main{
+        margin-left: 35px;
+    }
+
+    .footer-dropdown{
+        display: flex;
+    }
+    
+    .footer-title{
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .arrow{
+        margin-left: 210px;
+        font-size: 22px;
+    }
+
+    .arrow-1{
+        margin-left: 220px;
+        font-size: 22px;
+    }
+
+    .arrow-2{
+        margin-left: 239px;
+        font-size: 22px;
+    }
+
+    .icon{
+        display: block;
+    }
+
+    .subtitle{
+        font-size: 14px;
+        margin-bottom: 15px;
+        display: none;
+    }
+
+    .subtitle-1{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    .footer-social{
+        background-color: #1D2830;
+        display: flex;
+        color: #ffffff;
+        padding: 20px 0px;
+    }
+    
+    .socia-link{
+        display: none;
+    }
+    
+    .all-right{
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+}

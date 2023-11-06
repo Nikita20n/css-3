@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url(task\ 2\ background\ image.png);
+    height: 661px;
+    width: 100%;
+    position: relative;
+}
+
+
+#m1 {
+    background-color: #202020;
+    height: 661px;
+    width: 100%;
+    opacity: 0.749;
+}
+
+.Shape{
+    width: 100%;
+    height: 600px;
+    margin-top: 56px;
+}
+
+.ecc-1{
+    position: absolute;
+    margin-top: -250px;
+    border-radius: 50%;
+    border: 2px solid #e74c3c;
+    margin-left: 165px;
+}
+
+.ell-1{
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #e74c3c;
+    margin-top: -330px;
+    margin-left: 400px;
+    filter: drop-shadow(-4.33px 2.5px 7.5px #000000);
+}
+
+.ell-shadow{
+    position: absolute;
+    width: 82px;
+    border-radius: 50%;
+    height: 80px;
+    opacity: 0.502;
+    z-index: 1;
+    background-color: #e74c3c;
+    margin-top: -330px;
+    margin-left: 400px;
+}
+
+.ell-border{
+    position: absolute;
+    width: 3px;
+    margin-top: -249px;
+    margin-left: 440px;
+    height: 60px;
+    background-color: white;
+}
+
+h3{
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 365px;
+    color: #e74c3c;
+}
+
+.el-subtitle{
+    position: absolute;
+    margin-top: -140px;
+    margin-left: 380px;
+    color: white;
+    font-size: 15px;
+}
+
+.ecc-2{
+    position: absolute;
+    margin-top: -330px;
+    border: 2px solid #e74c3c;
+    margin-left: 650px;
+    border-radius: 50%;
+}
+
+.ecc-3{
+    position: absolute;
+    margin-top: -305px;
+    border: 2px solid #e74c3c;
+    margin-left: 920px;
+    border-radius: 50%;   
+}
+
+.ecc-4{
+    position: absolute;
+    margin-top: -400px;
+    border: 2px solid #e74c3c;
+    margin-left: 1150px;
+    border-radius: 50%;
+}
+
+h2{
+    position: absolute;
+    color: white;
+    z-index: 1;
+    margin-top: 80px;
+    margin-left: 40%;
+    font-size: 35px;
+}
+
+.team-subtitle{
+    position: absolute;
+    color: white;
+    z-index: 1;
+    margin-top: 135px;
+    margin-left: 30%;
+    font-size: 22px;
+}
+
+.team-line-1{
+    position: absolute;
+    background-color: white;
+    margin-top: 200px;
+    margin-left: 490px;
+    z-index: 1;
+    width: 130px;
+    height: 2px;
+}
+
+.team-border{
+    position: absolute;
+    background-color: #e74c3c;
+    margin-top: 195px;
+    margin-left: 640px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    z-index: 1;
+}
+
+.team-line-2{
+    position: absolute;
+    background-color: white;
+    margin-top: 200px;
+    margin-left: 670px;
+    z-index: 1;
+    width: 130px;
+    height: 2px;
+}
